@@ -1,0 +1,75 @@
+@import url(c:\Users\soder\Documents\WEBB19\Design\main.css);
+.containerStats {
+  overflow: hidden;
+  margin-top: 4em;
+  margin-right: 20px;
+  margin-left: auto;
+  width: 90vw;
+}
+
+.containerStats h1 {
+  font-size: 30px;
+  padding: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  color: var(--stath1);
+}
+
+.btnContainer {
+  width: 90vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btnContainer button {
+  padding: 2px;
+  width: 24.5%;
+  border-style: none;
+  border-radius: 3px;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  color: white;
+  background: var(--btnColor);
+}
+
+.btnContainer button:hover {
+  background: var(--btnHover);
+}
+
+.btnContainer button.active {
+  background: var(--statColor);
+}
+
+.total h1 {
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  font-size: 26px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: lighter;
+  color: var(--stath1);
+}
+
+.total span {
+  font-size: 40px;
+  color: var(--statColor);
+}
+
+canvas {
+  height: 40vh;
+  max-height: 40vh;
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=stats.css.map */
